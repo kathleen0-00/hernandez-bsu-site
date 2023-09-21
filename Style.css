@@ -1,0 +1,191 @@
+title, header{
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.nav-link {
+  color: black; /* Set the default color for the nav links */
+}
+
+.nav-link:hover {
+    color: #000000;
+  }
+
+  .nav-link.active {
+    color: #000000; /* Set the active color for the nav link */
+  }
+
+.opt{
+  font-family: "Roboto", sans-serif;
+  font-weight:  10px; 
+  font-size: 14px;
+  color: #5c5959;
+} 
+
+body {  
+  
+  background-image: url("C:\Users\phone\OneDrive\Pictures\Saved Pictures\Nasugbu-facade-scaled.jpg");
+}
+
+.bsuTitle {
+  font-family: Times;
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.sub {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.navbar {    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);   
+    
+  }
+
+.margb{
+  margin-right: 20px;
+}
+
+.marga{
+  margin-left: 20px;
+}
+
+
+.cover-container {
+  max-width: 42em;
+}
+p{
+  font-style: italic;
+  color: #000000;
+  font-size: 14px;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color:#373737;
+  border-bottom: .20rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #eb1c24;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color:#000000;
+  border-bottom-color: #eb1c24;
+  
+}
+
+
+.bgbsu{
+  height: 500px;
+  width: 1800px;
+  
+}
+
+.footerbox {
+  background-color: #373737;
+  padding: 10px;
+  color: #ffffff;  
+  
+}
+
+.marg {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.socials{
+  float: right;
+  margin-left: auto; /
+}
+
+h4{  
+  color: #a8a8a8;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h6{
+  color: #a8a8a8;
+  font-style: italic;
+}
+h2,h5{
+  
+  color: #eb1c24;
+}
+
+.margaa{
+  padding: 40px;
+}
+
+#about {
+  text-align: center; /* Center text within the div */
+  
+  display: flex; /* Enable flexbox for alignment */
+  flex-direction: column; /* Arrange items in a column */
+  
+  justify-content: center; /* Center vertically within the div */
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 50px;
+}
+
+.divider {
+  width: 80%; /* Set the width to 50% of the container */
+  margin: 0 auto;
+  color: #373737;
+}
+
+.pad{
+  padding: 50px;
+}
+
+
+.zoom-wrapper{
+  height: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.zoom-wrapper img{
+  object-fit: cover;
+  transition: transform 0.8s;
+  height: 100%;
+}
+
+.zoom-wrapper:hover img{
+  transform: scale(1.5);
+}
+.picpad{
+  padding: 14px;
+  margin-top: 20px;  
+
+}
+
+.picpad img {
+  max-width: 100%;
+  height: auto; 
+  max-height: 100%;
+}
+
+.cont{
+  color: #eb1c24;
+  font-size: 14px;
+  font-style: italic;
+}
